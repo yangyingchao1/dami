@@ -61,8 +61,8 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
-        $a = Yii::$app->redis->get('fds');
-        echo $a;exit;
+        //$a = Yii::$app->redis->get('fds');
+        //echo $a;exit;
         return $this->render('index');
     }
 
