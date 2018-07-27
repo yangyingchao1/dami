@@ -1,0 +1,2479 @@
+2018-07-27 17:52:55 [127.0.0.1][-][s58o7ne4b19baoqolttsro5mk0][error][Error] Error: Class 'models\LoginForm' not found in /data/wwwroot/default/yii2/admin/controllers/SiteController.php:79
+Stack trace:
+#0 [internal function]: app\controllers\SiteController->actionLogin()
+#1 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('login', Array)
+#4 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/login', Array)
+#5 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /data/wwwroot/default/yii2/admin/web/index.php(12): yii\base\Application->run()
+#7 {main}
+2018-07-27 17:52:55 [127.0.0.1][-][s58o7ne4b19baoqolttsro5mk0][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 's58o7ne4b19baoqolttsro5mk0'
+    '_csrf' => 'bca244bea473494229a178b03a29654bd8fe49cd6af96db1fbac5620e6b1afcca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"tgQMQY4hk8SO3AMv7cMsbFDCN-9jsp2-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'TEMP' => '/tmp'
+    'TMPDIR' => '/tmp'
+    'TMP' => '/tmp'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin'
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'HTTP_COOKIE' => 'PHPSESSID=s58o7ne4b19baoqolttsro5mk0; _csrf=bca244bea473494229a178b03a29654bd8fe49cd6af96db1fbac5620e6b1afcca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22tgQMQY4hk8SO3AMv7cMsbFDCN-9jsp2-%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/66.0.3359.181 Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '35782'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.12.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/data/wwwroot/default/yii2/admin/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'SCRIPT_FILENAME' => '/data/wwwroot/default/yii2/admin/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1532685175.6812
+    'REQUEST_TIME' => 1532685175
+]
+2018-07-27 17:53:50 [127.0.0.1][-][s58o7ne4b19baoqolttsro5mk0][error][Error] Error: Class 'app\models\ContactForm' not found in /data/wwwroot/default/yii2/admin/controllers/SiteController.php:109
+Stack trace:
+#0 [internal function]: app\controllers\SiteController->actionContact()
+#1 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('contact', Array)
+#4 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/contact', Array)
+#5 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /data/wwwroot/default/yii2/admin/web/index.php(12): yii\base\Application->run()
+#7 {main}
+2018-07-27 17:53:50 [127.0.0.1][-][s58o7ne4b19baoqolttsro5mk0][info][application] $_GET = [
+    'r' => 'site/contact'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 's58o7ne4b19baoqolttsro5mk0'
+    '_csrf' => 'bca244bea473494229a178b03a29654bd8fe49cd6af96db1fbac5620e6b1afcca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"tgQMQY4hk8SO3AMv7cMsbFDCN-9jsp2-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'TEMP' => '/tmp'
+    'TMPDIR' => '/tmp'
+    'TMP' => '/tmp'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin'
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'HTTP_COOKIE' => 'PHPSESSID=s58o7ne4b19baoqolttsro5mk0; _csrf=bca244bea473494229a178b03a29654bd8fe49cd6af96db1fbac5620e6b1afcca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22tgQMQY4hk8SO3AMv7cMsbFDCN-9jsp2-%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.com/index.php?r=site%2Fabout'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/66.0.3359.181 Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '35782'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.12.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/data/wwwroot/default/yii2/admin/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Fcontact'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcontact'
+    'SCRIPT_FILENAME' => '/data/wwwroot/default/yii2/admin/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1532685230.8802
+    'REQUEST_TIME' => 1532685230
+]
+2018-07-27 17:53:56 [127.0.0.1][-][s58o7ne4b19baoqolttsro5mk0][error][Error] Error: Class 'models\LoginForm' not found in /data/wwwroot/default/yii2/admin/controllers/SiteController.php:79
+Stack trace:
+#0 [internal function]: app\controllers\SiteController->actionLogin()
+#1 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('login', Array)
+#4 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/login', Array)
+#5 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /data/wwwroot/default/yii2/admin/web/index.php(12): yii\base\Application->run()
+#7 {main}
+2018-07-27 17:53:56 [127.0.0.1][-][s58o7ne4b19baoqolttsro5mk0][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 's58o7ne4b19baoqolttsro5mk0'
+    '_csrf' => 'bca244bea473494229a178b03a29654bd8fe49cd6af96db1fbac5620e6b1afcca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"tgQMQY4hk8SO3AMv7cMsbFDCN-9jsp2-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'TEMP' => '/tmp'
+    'TMPDIR' => '/tmp'
+    'TMP' => '/tmp'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin'
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'HTTP_COOKIE' => 'PHPSESSID=s58o7ne4b19baoqolttsro5mk0; _csrf=bca244bea473494229a178b03a29654bd8fe49cd6af96db1fbac5620e6b1afcca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22tgQMQY4hk8SO3AMv7cMsbFDCN-9jsp2-%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.com/index.php?r=site%2Fabout'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/66.0.3359.181 Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '35782'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.12.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/data/wwwroot/default/yii2/admin/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'SCRIPT_FILENAME' => '/data/wwwroot/default/yii2/admin/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1532685236.4621
+    'REQUEST_TIME' => 1532685236
+]
+2018-07-27 18:01:00 [127.0.0.1][-][s58o7ne4b19baoqolttsro5mk0][error][Error] Error: Class 'common\models\LoginForm' not found in /data/wwwroot/default/yii2/admin/controllers/SiteController.php:79
+Stack trace:
+#0 [internal function]: app\controllers\SiteController->actionLogin()
+#1 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('login', Array)
+#4 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/login', Array)
+#5 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /data/wwwroot/default/yii2/admin/web/index.php(12): yii\base\Application->run()
+#7 {main}
+2018-07-27 18:01:00 [127.0.0.1][-][s58o7ne4b19baoqolttsro5mk0][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 's58o7ne4b19baoqolttsro5mk0'
+    '_csrf' => 'bca244bea473494229a178b03a29654bd8fe49cd6af96db1fbac5620e6b1afcca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"tgQMQY4hk8SO3AMv7cMsbFDCN-9jsp2-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'TEMP' => '/tmp'
+    'TMPDIR' => '/tmp'
+    'TMP' => '/tmp'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin'
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'HTTP_COOKIE' => 'PHPSESSID=s58o7ne4b19baoqolttsro5mk0; _csrf=bca244bea473494229a178b03a29654bd8fe49cd6af96db1fbac5620e6b1afcca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22tgQMQY4hk8SO3AMv7cMsbFDCN-9jsp2-%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/66.0.3359.181 Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '39720'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.12.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/data/wwwroot/default/yii2/admin/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'SCRIPT_FILENAME' => '/data/wwwroot/default/yii2/admin/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1532685660.019
+    'REQUEST_TIME' => 1532685660
+]
+2018-07-27 18:01:27 [127.0.0.1][-][s58o7ne4b19baoqolttsro5mk0][error][Error] Error: Class 'common\models\LoginForm' not found in /data/wwwroot/default/yii2/admin/controllers/SiteController.php:79
+Stack trace:
+#0 [internal function]: app\controllers\SiteController->actionLogin()
+#1 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('login', Array)
+#4 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/login', Array)
+#5 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /data/wwwroot/default/yii2/admin/web/index.php(12): yii\base\Application->run()
+#7 {main}
+2018-07-27 18:01:27 [127.0.0.1][-][s58o7ne4b19baoqolttsro5mk0][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 's58o7ne4b19baoqolttsro5mk0'
+    '_csrf' => 'bca244bea473494229a178b03a29654bd8fe49cd6af96db1fbac5620e6b1afcca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"tgQMQY4hk8SO3AMv7cMsbFDCN-9jsp2-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'TEMP' => '/tmp'
+    'TMPDIR' => '/tmp'
+    'TMP' => '/tmp'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin'
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'HTTP_COOKIE' => 'PHPSESSID=s58o7ne4b19baoqolttsro5mk0; _csrf=bca244bea473494229a178b03a29654bd8fe49cd6af96db1fbac5620e6b1afcca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22tgQMQY4hk8SO3AMv7cMsbFDCN-9jsp2-%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/66.0.3359.181 Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '39720'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.12.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/data/wwwroot/default/yii2/admin/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'SCRIPT_FILENAME' => '/data/wwwroot/default/yii2/admin/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1532685687.9464
+    'REQUEST_TIME' => 1532685687
+]
+2018-07-27 18:01:31 [127.0.0.1][-][s58o7ne4b19baoqolttsro5mk0][error][Error] Error: Class 'common\models\LoginForm' not found in /data/wwwroot/default/yii2/admin/controllers/SiteController.php:79
+Stack trace:
+#0 [internal function]: app\controllers\SiteController->actionLogin()
+#1 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('login', Array)
+#4 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/login', Array)
+#5 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /data/wwwroot/default/yii2/admin/web/index.php(12): yii\base\Application->run()
+#7 {main}
+2018-07-27 18:01:31 [127.0.0.1][-][s58o7ne4b19baoqolttsro5mk0][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 's58o7ne4b19baoqolttsro5mk0'
+    '_csrf' => 'bca244bea473494229a178b03a29654bd8fe49cd6af96db1fbac5620e6b1afcca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"tgQMQY4hk8SO3AMv7cMsbFDCN-9jsp2-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'TEMP' => '/tmp'
+    'TMPDIR' => '/tmp'
+    'TMP' => '/tmp'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin'
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'HTTP_COOKIE' => 'PHPSESSID=s58o7ne4b19baoqolttsro5mk0; _csrf=bca244bea473494229a178b03a29654bd8fe49cd6af96db1fbac5620e6b1afcca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22tgQMQY4hk8SO3AMv7cMsbFDCN-9jsp2-%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/66.0.3359.181 Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '39720'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.12.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/data/wwwroot/default/yii2/admin/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'SCRIPT_FILENAME' => '/data/wwwroot/default/yii2/admin/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1532685691.0407
+    'REQUEST_TIME' => 1532685691
+]
+2018-07-27 18:07:07 [127.0.0.1][-][s58o7ne4b19baoqolttsro5mk0][error][Error] Error: Class 'commom\user\models\LoginForm' not found in /data/wwwroot/default/yii2/admin/controllers/SiteController.php:79
+Stack trace:
+#0 [internal function]: app\controllers\SiteController->actionLogin()
+#1 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('login', Array)
+#4 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/login', Array)
+#5 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /data/wwwroot/default/yii2/admin/web/index.php(12): yii\base\Application->run()
+#7 {main}
+2018-07-27 18:07:07 [127.0.0.1][-][s58o7ne4b19baoqolttsro5mk0][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 's58o7ne4b19baoqolttsro5mk0'
+    '_csrf' => 'bca244bea473494229a178b03a29654bd8fe49cd6af96db1fbac5620e6b1afcca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"tgQMQY4hk8SO3AMv7cMsbFDCN-9jsp2-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'TEMP' => '/tmp'
+    'TMPDIR' => '/tmp'
+    'TMP' => '/tmp'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin'
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'HTTP_COOKIE' => 'PHPSESSID=s58o7ne4b19baoqolttsro5mk0; _csrf=bca244bea473494229a178b03a29654bd8fe49cd6af96db1fbac5620e6b1afcca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22tgQMQY4hk8SO3AMv7cMsbFDCN-9jsp2-%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/66.0.3359.181 Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '39954'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.12.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/data/wwwroot/default/yii2/admin/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'SCRIPT_FILENAME' => '/data/wwwroot/default/yii2/admin/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1532686027.096
+    'REQUEST_TIME' => 1532686027
+]
+2018-07-27 18:08:25 [127.0.0.1][-][s58o7ne4b19baoqolttsro5mk0][error][Error] Error: Class 'commom\models\user\LoginForm' not found in /data/wwwroot/default/yii2/admin/controllers/SiteController.php:79
+Stack trace:
+#0 [internal function]: app\controllers\SiteController->actionLogin()
+#1 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('login', Array)
+#4 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/login', Array)
+#5 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /data/wwwroot/default/yii2/admin/web/index.php(12): yii\base\Application->run()
+#7 {main}
+2018-07-27 18:08:25 [127.0.0.1][-][s58o7ne4b19baoqolttsro5mk0][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 's58o7ne4b19baoqolttsro5mk0'
+    '_csrf' => 'bca244bea473494229a178b03a29654bd8fe49cd6af96db1fbac5620e6b1afcca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"tgQMQY4hk8SO3AMv7cMsbFDCN-9jsp2-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'TEMP' => '/tmp'
+    'TMPDIR' => '/tmp'
+    'TMP' => '/tmp'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin'
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'HTTP_COOKIE' => 'PHPSESSID=s58o7ne4b19baoqolttsro5mk0; _csrf=bca244bea473494229a178b03a29654bd8fe49cd6af96db1fbac5620e6b1afcca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22tgQMQY4hk8SO3AMv7cMsbFDCN-9jsp2-%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/66.0.3359.181 Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '39954'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.12.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/data/wwwroot/default/yii2/admin/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'SCRIPT_FILENAME' => '/data/wwwroot/default/yii2/admin/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1532686105.3377
+    'REQUEST_TIME' => 1532686105
+]
+2018-07-27 18:08:26 [127.0.0.1][-][s58o7ne4b19baoqolttsro5mk0][error][Error] Error: Class 'commom\models\user\LoginForm' not found in /data/wwwroot/default/yii2/admin/controllers/SiteController.php:79
+Stack trace:
+#0 [internal function]: app\controllers\SiteController->actionLogin()
+#1 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('login', Array)
+#4 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/login', Array)
+#5 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /data/wwwroot/default/yii2/admin/web/index.php(12): yii\base\Application->run()
+#7 {main}
+2018-07-27 18:08:26 [127.0.0.1][-][s58o7ne4b19baoqolttsro5mk0][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 's58o7ne4b19baoqolttsro5mk0'
+    '_csrf' => 'bca244bea473494229a178b03a29654bd8fe49cd6af96db1fbac5620e6b1afcca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"tgQMQY4hk8SO3AMv7cMsbFDCN-9jsp2-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'TEMP' => '/tmp'
+    'TMPDIR' => '/tmp'
+    'TMP' => '/tmp'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin'
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'HTTP_COOKIE' => 'PHPSESSID=s58o7ne4b19baoqolttsro5mk0; _csrf=bca244bea473494229a178b03a29654bd8fe49cd6af96db1fbac5620e6b1afcca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22tgQMQY4hk8SO3AMv7cMsbFDCN-9jsp2-%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/66.0.3359.181 Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '39954'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.12.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/data/wwwroot/default/yii2/admin/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'SCRIPT_FILENAME' => '/data/wwwroot/default/yii2/admin/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1532686106.1323
+    'REQUEST_TIME' => 1532686106
+]
+2018-07-27 18:08:26 [127.0.0.1][-][s58o7ne4b19baoqolttsro5mk0][error][Error] Error: Class 'commom\models\user\LoginForm' not found in /data/wwwroot/default/yii2/admin/controllers/SiteController.php:79
+Stack trace:
+#0 [internal function]: app\controllers\SiteController->actionLogin()
+#1 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('login', Array)
+#4 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/login', Array)
+#5 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /data/wwwroot/default/yii2/admin/web/index.php(12): yii\base\Application->run()
+#7 {main}
+2018-07-27 18:08:26 [127.0.0.1][-][s58o7ne4b19baoqolttsro5mk0][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 's58o7ne4b19baoqolttsro5mk0'
+    '_csrf' => 'bca244bea473494229a178b03a29654bd8fe49cd6af96db1fbac5620e6b1afcca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"tgQMQY4hk8SO3AMv7cMsbFDCN-9jsp2-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'TEMP' => '/tmp'
+    'TMPDIR' => '/tmp'
+    'TMP' => '/tmp'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin'
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'HTTP_COOKIE' => 'PHPSESSID=s58o7ne4b19baoqolttsro5mk0; _csrf=bca244bea473494229a178b03a29654bd8fe49cd6af96db1fbac5620e6b1afcca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22tgQMQY4hk8SO3AMv7cMsbFDCN-9jsp2-%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/66.0.3359.181 Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '39954'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.12.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/data/wwwroot/default/yii2/admin/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'SCRIPT_FILENAME' => '/data/wwwroot/default/yii2/admin/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1532686106.3632
+    'REQUEST_TIME' => 1532686106
+]
+2018-07-27 18:08:26 [127.0.0.1][-][s58o7ne4b19baoqolttsro5mk0][error][Error] Error: Class 'commom\models\user\LoginForm' not found in /data/wwwroot/default/yii2/admin/controllers/SiteController.php:79
+Stack trace:
+#0 [internal function]: app\controllers\SiteController->actionLogin()
+#1 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('login', Array)
+#4 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/login', Array)
+#5 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /data/wwwroot/default/yii2/admin/web/index.php(12): yii\base\Application->run()
+#7 {main}
+2018-07-27 18:08:26 [127.0.0.1][-][s58o7ne4b19baoqolttsro5mk0][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 's58o7ne4b19baoqolttsro5mk0'
+    '_csrf' => 'bca244bea473494229a178b03a29654bd8fe49cd6af96db1fbac5620e6b1afcca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"tgQMQY4hk8SO3AMv7cMsbFDCN-9jsp2-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'TEMP' => '/tmp'
+    'TMPDIR' => '/tmp'
+    'TMP' => '/tmp'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin'
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'HTTP_COOKIE' => 'PHPSESSID=s58o7ne4b19baoqolttsro5mk0; _csrf=bca244bea473494229a178b03a29654bd8fe49cd6af96db1fbac5620e6b1afcca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22tgQMQY4hk8SO3AMv7cMsbFDCN-9jsp2-%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/66.0.3359.181 Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '39954'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.12.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/data/wwwroot/default/yii2/admin/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'SCRIPT_FILENAME' => '/data/wwwroot/default/yii2/admin/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1532686106.516
+    'REQUEST_TIME' => 1532686106
+]
+2018-07-27 18:08:26 [127.0.0.1][-][s58o7ne4b19baoqolttsro5mk0][error][Error] Error: Class 'commom\models\user\LoginForm' not found in /data/wwwroot/default/yii2/admin/controllers/SiteController.php:79
+Stack trace:
+#0 [internal function]: app\controllers\SiteController->actionLogin()
+#1 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('login', Array)
+#4 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/login', Array)
+#5 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /data/wwwroot/default/yii2/admin/web/index.php(12): yii\base\Application->run()
+#7 {main}
+2018-07-27 18:08:26 [127.0.0.1][-][s58o7ne4b19baoqolttsro5mk0][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 's58o7ne4b19baoqolttsro5mk0'
+    '_csrf' => 'bca244bea473494229a178b03a29654bd8fe49cd6af96db1fbac5620e6b1afcca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"tgQMQY4hk8SO3AMv7cMsbFDCN-9jsp2-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'TEMP' => '/tmp'
+    'TMPDIR' => '/tmp'
+    'TMP' => '/tmp'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin'
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'HTTP_COOKIE' => 'PHPSESSID=s58o7ne4b19baoqolttsro5mk0; _csrf=bca244bea473494229a178b03a29654bd8fe49cd6af96db1fbac5620e6b1afcca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22tgQMQY4hk8SO3AMv7cMsbFDCN-9jsp2-%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/66.0.3359.181 Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '39954'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.12.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/data/wwwroot/default/yii2/admin/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'SCRIPT_FILENAME' => '/data/wwwroot/default/yii2/admin/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1532686106.674
+    'REQUEST_TIME' => 1532686106
+]
+2018-07-27 18:08:26 [127.0.0.1][-][s58o7ne4b19baoqolttsro5mk0][error][Error] Error: Class 'commom\models\user\LoginForm' not found in /data/wwwroot/default/yii2/admin/controllers/SiteController.php:79
+Stack trace:
+#0 [internal function]: app\controllers\SiteController->actionLogin()
+#1 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('login', Array)
+#4 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/login', Array)
+#5 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /data/wwwroot/default/yii2/admin/web/index.php(12): yii\base\Application->run()
+#7 {main}
+2018-07-27 18:08:26 [127.0.0.1][-][s58o7ne4b19baoqolttsro5mk0][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 's58o7ne4b19baoqolttsro5mk0'
+    '_csrf' => 'bca244bea473494229a178b03a29654bd8fe49cd6af96db1fbac5620e6b1afcca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"tgQMQY4hk8SO3AMv7cMsbFDCN-9jsp2-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'TEMP' => '/tmp'
+    'TMPDIR' => '/tmp'
+    'TMP' => '/tmp'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin'
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'HTTP_COOKIE' => 'PHPSESSID=s58o7ne4b19baoqolttsro5mk0; _csrf=bca244bea473494229a178b03a29654bd8fe49cd6af96db1fbac5620e6b1afcca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22tgQMQY4hk8SO3AMv7cMsbFDCN-9jsp2-%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/66.0.3359.181 Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '39954'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.12.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/data/wwwroot/default/yii2/admin/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'SCRIPT_FILENAME' => '/data/wwwroot/default/yii2/admin/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1532686106.9668
+    'REQUEST_TIME' => 1532686106
+]
+2018-07-27 18:08:43 [127.0.0.1][-][s58o7ne4b19baoqolttsro5mk0][error][Error] Error: Class 'commom\models\user\LoginForm' not found in /data/wwwroot/default/yii2/admin/controllers/SiteController.php:79
+Stack trace:
+#0 [internal function]: app\controllers\SiteController->actionLogin()
+#1 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('login', Array)
+#4 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/login', Array)
+#5 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /data/wwwroot/default/yii2/admin/web/index.php(12): yii\base\Application->run()
+#7 {main}
+2018-07-27 18:08:43 [127.0.0.1][-][s58o7ne4b19baoqolttsro5mk0][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 's58o7ne4b19baoqolttsro5mk0'
+    '_csrf' => 'bca244bea473494229a178b03a29654bd8fe49cd6af96db1fbac5620e6b1afcca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"tgQMQY4hk8SO3AMv7cMsbFDCN-9jsp2-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'TEMP' => '/tmp'
+    'TMPDIR' => '/tmp'
+    'TMP' => '/tmp'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin'
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'HTTP_COOKIE' => 'PHPSESSID=s58o7ne4b19baoqolttsro5mk0; _csrf=bca244bea473494229a178b03a29654bd8fe49cd6af96db1fbac5620e6b1afcca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22tgQMQY4hk8SO3AMv7cMsbFDCN-9jsp2-%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/66.0.3359.181 Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '39954'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.12.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/data/wwwroot/default/yii2/admin/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'SCRIPT_FILENAME' => '/data/wwwroot/default/yii2/admin/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1532686123.7907
+    'REQUEST_TIME' => 1532686123
+]
+2018-07-27 18:17:54 [127.0.0.1][-][s58o7ne4b19baoqolttsro5mk0][error][Error] Error: Class 'commom\models\user\LoginForm' not found in /data/wwwroot/default/yii2/admin/controllers/SiteController.php:79
+Stack trace:
+#0 [internal function]: app\controllers\SiteController->actionLogin()
+#1 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('login', Array)
+#4 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/login', Array)
+#5 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /data/wwwroot/default/yii2/admin/web/index.php(12): yii\base\Application->run()
+#7 {main}
+2018-07-27 18:17:54 [127.0.0.1][-][s58o7ne4b19baoqolttsro5mk0][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 's58o7ne4b19baoqolttsro5mk0'
+    '_csrf' => 'bca244bea473494229a178b03a29654bd8fe49cd6af96db1fbac5620e6b1afcca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"tgQMQY4hk8SO3AMv7cMsbFDCN-9jsp2-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'TEMP' => '/tmp'
+    'TMPDIR' => '/tmp'
+    'TMP' => '/tmp'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin'
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'HTTP_COOKIE' => 'PHPSESSID=s58o7ne4b19baoqolttsro5mk0; _csrf=bca244bea473494229a178b03a29654bd8fe49cd6af96db1fbac5620e6b1afcca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22tgQMQY4hk8SO3AMv7cMsbFDCN-9jsp2-%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/66.0.3359.181 Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '40742'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.12.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/data/wwwroot/default/yii2/admin/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'SCRIPT_FILENAME' => '/data/wwwroot/default/yii2/admin/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1532686674.1994
+    'REQUEST_TIME' => 1532686674
+]
+2018-07-27 18:18:06 [127.0.0.1][-][s58o7ne4b19baoqolttsro5mk0][error][Error] Error: Class 'commom\models\LoginForm' not found in /data/wwwroot/default/yii2/admin/controllers/SiteController.php:79
+Stack trace:
+#0 [internal function]: app\controllers\SiteController->actionLogin()
+#1 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('login', Array)
+#4 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/login', Array)
+#5 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /data/wwwroot/default/yii2/admin/web/index.php(12): yii\base\Application->run()
+#7 {main}
+2018-07-27 18:18:06 [127.0.0.1][-][s58o7ne4b19baoqolttsro5mk0][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 's58o7ne4b19baoqolttsro5mk0'
+    '_csrf' => 'bca244bea473494229a178b03a29654bd8fe49cd6af96db1fbac5620e6b1afcca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"tgQMQY4hk8SO3AMv7cMsbFDCN-9jsp2-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'TEMP' => '/tmp'
+    'TMPDIR' => '/tmp'
+    'TMP' => '/tmp'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin'
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'HTTP_COOKIE' => 'PHPSESSID=s58o7ne4b19baoqolttsro5mk0; _csrf=bca244bea473494229a178b03a29654bd8fe49cd6af96db1fbac5620e6b1afcca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22tgQMQY4hk8SO3AMv7cMsbFDCN-9jsp2-%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/66.0.3359.181 Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '40742'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.12.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/data/wwwroot/default/yii2/admin/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'SCRIPT_FILENAME' => '/data/wwwroot/default/yii2/admin/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1532686686.2676
+    'REQUEST_TIME' => 1532686686
+]
+2018-07-27 18:18:22 [127.0.0.1][-][s58o7ne4b19baoqolttsro5mk0][error][yii\base\UnknownClassException] yii\base\UnknownClassException: Unable to find 'common\models\LoginForm' in file: /data/wwwroot/default/yii2/models/LoginForm.php. Namespace missing? in /data/wwwroot/default/yii2/vendor/yiisoft/yii2/BaseYii.php:296
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('common\\models\\L...')
+#1 /data/wwwroot/default/yii2/admin/controllers/SiteController.php(79): spl_autoload_call('common\\models\\L...')
+#2 [internal function]: app\controllers\SiteController->actionLogin()
+#3 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#5 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('login', Array)
+#6 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/login', Array)
+#7 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /data/wwwroot/default/yii2/admin/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2018-07-27 18:18:22 [127.0.0.1][-][s58o7ne4b19baoqolttsro5mk0][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 's58o7ne4b19baoqolttsro5mk0'
+    '_csrf' => 'bca244bea473494229a178b03a29654bd8fe49cd6af96db1fbac5620e6b1afcca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"tgQMQY4hk8SO3AMv7cMsbFDCN-9jsp2-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'TEMP' => '/tmp'
+    'TMPDIR' => '/tmp'
+    'TMP' => '/tmp'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin'
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'HTTP_COOKIE' => 'PHPSESSID=s58o7ne4b19baoqolttsro5mk0; _csrf=bca244bea473494229a178b03a29654bd8fe49cd6af96db1fbac5620e6b1afcca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22tgQMQY4hk8SO3AMv7cMsbFDCN-9jsp2-%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/66.0.3359.181 Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '40742'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.12.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/data/wwwroot/default/yii2/admin/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'SCRIPT_FILENAME' => '/data/wwwroot/default/yii2/admin/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1532686702.7189
+    'REQUEST_TIME' => 1532686702
+]
+2018-07-27 18:18:47 [127.0.0.1][-][s58o7ne4b19baoqolttsro5mk0][error][yii\base\UnknownClassException] yii\base\UnknownClassException: Unable to find 'common\models\LoginForm' in file: /data/wwwroot/default/yii2/models/LoginForm.php. Namespace missing? in /data/wwwroot/default/yii2/vendor/yiisoft/yii2/BaseYii.php:296
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('common\\models\\L...')
+#1 /data/wwwroot/default/yii2/admin/controllers/SiteController.php(79): spl_autoload_call('common\\models\\L...')
+#2 [internal function]: app\controllers\SiteController->actionLogin()
+#3 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#5 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('login', Array)
+#6 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/login', Array)
+#7 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /data/wwwroot/default/yii2/admin/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2018-07-27 18:18:47 [127.0.0.1][-][s58o7ne4b19baoqolttsro5mk0][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 's58o7ne4b19baoqolttsro5mk0'
+    '_csrf' => 'bca244bea473494229a178b03a29654bd8fe49cd6af96db1fbac5620e6b1afcca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"tgQMQY4hk8SO3AMv7cMsbFDCN-9jsp2-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'TEMP' => '/tmp'
+    'TMPDIR' => '/tmp'
+    'TMP' => '/tmp'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin'
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'HTTP_COOKIE' => 'PHPSESSID=s58o7ne4b19baoqolttsro5mk0; _csrf=bca244bea473494229a178b03a29654bd8fe49cd6af96db1fbac5620e6b1afcca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22tgQMQY4hk8SO3AMv7cMsbFDCN-9jsp2-%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/66.0.3359.181 Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '40742'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.12.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/data/wwwroot/default/yii2/admin/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'SCRIPT_FILENAME' => '/data/wwwroot/default/yii2/admin/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1532686727.2528
+    'REQUEST_TIME' => 1532686727
+]
+2018-07-27 18:18:50 [127.0.0.1][-][s58o7ne4b19baoqolttsro5mk0][error][yii\base\UnknownClassException] yii\base\UnknownClassException: Unable to find 'common\models\LoginForm' in file: /data/wwwroot/default/yii2/models/LoginForm.php. Namespace missing? in /data/wwwroot/default/yii2/vendor/yiisoft/yii2/BaseYii.php:296
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('common\\models\\L...')
+#1 /data/wwwroot/default/yii2/admin/controllers/SiteController.php(79): spl_autoload_call('common\\models\\L...')
+#2 [internal function]: app\controllers\SiteController->actionLogin()
+#3 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#5 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('login', Array)
+#6 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/login', Array)
+#7 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /data/wwwroot/default/yii2/admin/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2018-07-27 18:18:50 [127.0.0.1][-][s58o7ne4b19baoqolttsro5mk0][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 's58o7ne4b19baoqolttsro5mk0'
+    '_csrf' => 'bca244bea473494229a178b03a29654bd8fe49cd6af96db1fbac5620e6b1afcca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"tgQMQY4hk8SO3AMv7cMsbFDCN-9jsp2-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'TEMP' => '/tmp'
+    'TMPDIR' => '/tmp'
+    'TMP' => '/tmp'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin'
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'HTTP_COOKIE' => 'PHPSESSID=s58o7ne4b19baoqolttsro5mk0; _csrf=bca244bea473494229a178b03a29654bd8fe49cd6af96db1fbac5620e6b1afcca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22tgQMQY4hk8SO3AMv7cMsbFDCN-9jsp2-%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/66.0.3359.181 Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '40742'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.12.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/data/wwwroot/default/yii2/admin/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'SCRIPT_FILENAME' => '/data/wwwroot/default/yii2/admin/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1532686730.5104
+    'REQUEST_TIME' => 1532686730
+]
+2018-07-27 18:19:46 [127.0.0.1][-][s58o7ne4b19baoqolttsro5mk0][error][yii\base\UnknownClassException] yii\base\UnknownClassException: Unable to find 'common\models\LoginForm' in file: /data/wwwroot/default/yii2/models/LoginForm.php. Namespace missing? in /data/wwwroot/default/yii2/vendor/yiisoft/yii2/BaseYii.php:296
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('common\\models\\L...')
+#1 /data/wwwroot/default/yii2/admin/controllers/SiteController.php(79): spl_autoload_call('common\\models\\L...')
+#2 [internal function]: app\controllers\SiteController->actionLogin()
+#3 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#5 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('login', Array)
+#6 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/login', Array)
+#7 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /data/wwwroot/default/yii2/admin/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2018-07-27 18:19:46 [127.0.0.1][-][s58o7ne4b19baoqolttsro5mk0][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 's58o7ne4b19baoqolttsro5mk0'
+    '_csrf' => 'bca244bea473494229a178b03a29654bd8fe49cd6af96db1fbac5620e6b1afcca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"tgQMQY4hk8SO3AMv7cMsbFDCN-9jsp2-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'TEMP' => '/tmp'
+    'TMPDIR' => '/tmp'
+    'TMP' => '/tmp'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin'
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'HTTP_COOKIE' => 'PHPSESSID=s58o7ne4b19baoqolttsro5mk0; _csrf=bca244bea473494229a178b03a29654bd8fe49cd6af96db1fbac5620e6b1afcca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22tgQMQY4hk8SO3AMv7cMsbFDCN-9jsp2-%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/66.0.3359.181 Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '40742'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.12.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/data/wwwroot/default/yii2/admin/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'SCRIPT_FILENAME' => '/data/wwwroot/default/yii2/admin/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1532686786.1871
+    'REQUEST_TIME' => 1532686786
+]
+2018-07-27 18:22:04 [127.0.0.1][-][s58o7ne4b19baoqolttsro5mk0][error][yii\base\UnknownClassException] yii\base\UnknownClassException: Unable to find 'common\models\LoginForm' in file: /data/wwwroot/default/yii2/models/LoginForm.php. Namespace missing? in /data/wwwroot/default/yii2/vendor/yiisoft/yii2/BaseYii.php:296
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('common\\models\\L...')
+#1 /data/wwwroot/default/yii2/admin/controllers/SiteController.php(79): spl_autoload_call('common\\models\\L...')
+#2 [internal function]: app\controllers\SiteController->actionLogin()
+#3 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#5 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('login', Array)
+#6 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/login', Array)
+#7 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /data/wwwroot/default/yii2/admin/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2018-07-27 18:22:04 [127.0.0.1][-][s58o7ne4b19baoqolttsro5mk0][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 's58o7ne4b19baoqolttsro5mk0'
+    '_csrf' => 'bca244bea473494229a178b03a29654bd8fe49cd6af96db1fbac5620e6b1afcca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"tgQMQY4hk8SO3AMv7cMsbFDCN-9jsp2-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'TEMP' => '/tmp'
+    'TMPDIR' => '/tmp'
+    'TMP' => '/tmp'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin'
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'HTTP_COOKIE' => 'PHPSESSID=s58o7ne4b19baoqolttsro5mk0; _csrf=bca244bea473494229a178b03a29654bd8fe49cd6af96db1fbac5620e6b1afcca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22tgQMQY4hk8SO3AMv7cMsbFDCN-9jsp2-%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.com/index.php?r=site%2Findex'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/66.0.3359.181 Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '40742'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.12.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/data/wwwroot/default/yii2/admin/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'SCRIPT_FILENAME' => '/data/wwwroot/default/yii2/admin/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1532686924.6638
+    'REQUEST_TIME' => 1532686924
+]
+2018-07-27 18:22:35 [127.0.0.1][-][s58o7ne4b19baoqolttsro5mk0][error][yii\base\UnknownClassException] yii\base\UnknownClassException: Unable to find 'common\models\LoginForm' in file: /data/wwwroot/default/yii2/models/LoginForm.php. Namespace missing? in /data/wwwroot/default/yii2/vendor/yiisoft/yii2/BaseYii.php:296
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('common\\models\\L...')
+#1 /data/wwwroot/default/yii2/admin/controllers/SiteController.php(79): spl_autoload_call('common\\models\\L...')
+#2 [internal function]: app\controllers\SiteController->actionLogin()
+#3 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#5 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('login', Array)
+#6 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/login', Array)
+#7 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /data/wwwroot/default/yii2/admin/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2018-07-27 18:22:35 [127.0.0.1][-][s58o7ne4b19baoqolttsro5mk0][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 's58o7ne4b19baoqolttsro5mk0'
+    '_csrf' => 'bca244bea473494229a178b03a29654bd8fe49cd6af96db1fbac5620e6b1afcca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"tgQMQY4hk8SO3AMv7cMsbFDCN-9jsp2-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'TEMP' => '/tmp'
+    'TMPDIR' => '/tmp'
+    'TMP' => '/tmp'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin'
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'HTTP_COOKIE' => 'PHPSESSID=s58o7ne4b19baoqolttsro5mk0; _csrf=bca244bea473494229a178b03a29654bd8fe49cd6af96db1fbac5620e6b1afcca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22tgQMQY4hk8SO3AMv7cMsbFDCN-9jsp2-%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.com/index.php?r=site%2Findex'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/66.0.3359.181 Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '40742'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.12.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/data/wwwroot/default/yii2/admin/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'SCRIPT_FILENAME' => '/data/wwwroot/default/yii2/admin/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1532686955.5018
+    'REQUEST_TIME' => 1532686955
+]
+2018-07-27 18:24:30 [127.0.0.1][-][s58o7ne4b19baoqolttsro5mk0][error][yii\base\UnknownClassException] yii\base\UnknownClassException: Unable to find 'common\models\LoginForm' in file: /data/wwwroot/default/yii2/common/models/LoginForm.php. Namespace missing? in /data/wwwroot/default/yii2/vendor/yiisoft/yii2/BaseYii.php:296
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('common\\models\\L...')
+#1 /data/wwwroot/default/yii2/admin/controllers/SiteController.php(79): spl_autoload_call('common\\models\\L...')
+#2 [internal function]: app\controllers\SiteController->actionLogin()
+#3 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#5 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('login', Array)
+#6 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/login', Array)
+#7 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /data/wwwroot/default/yii2/admin/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2018-07-27 18:24:30 [127.0.0.1][-][s58o7ne4b19baoqolttsro5mk0][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 's58o7ne4b19baoqolttsro5mk0'
+    '_csrf' => 'bca244bea473494229a178b03a29654bd8fe49cd6af96db1fbac5620e6b1afcca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"tgQMQY4hk8SO3AMv7cMsbFDCN-9jsp2-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'TEMP' => '/tmp'
+    'TMPDIR' => '/tmp'
+    'TMP' => '/tmp'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin'
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'HTTP_COOKIE' => 'PHPSESSID=s58o7ne4b19baoqolttsro5mk0; _csrf=bca244bea473494229a178b03a29654bd8fe49cd6af96db1fbac5620e6b1afcca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22tgQMQY4hk8SO3AMv7cMsbFDCN-9jsp2-%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.com/index.php?r=site%2Fabout'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/66.0.3359.181 Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '40742'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.12.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/data/wwwroot/default/yii2/admin/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'SCRIPT_FILENAME' => '/data/wwwroot/default/yii2/admin/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1532687070.9443
+    'REQUEST_TIME' => 1532687070
+]
+2018-07-27 18:25:23 [127.0.0.1][-][s58o7ne4b19baoqolttsro5mk0][error][Error] Error: Class 'common\models\LoginForm' not found in /data/wwwroot/default/yii2/admin/controllers/SiteController.php:79
+Stack trace:
+#0 [internal function]: app\controllers\SiteController->actionLogin()
+#1 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('login', Array)
+#4 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/login', Array)
+#5 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /data/wwwroot/default/yii2/admin/web/index.php(12): yii\base\Application->run()
+#7 {main}
+2018-07-27 18:25:23 [127.0.0.1][-][s58o7ne4b19baoqolttsro5mk0][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 's58o7ne4b19baoqolttsro5mk0'
+    '_csrf' => 'bca244bea473494229a178b03a29654bd8fe49cd6af96db1fbac5620e6b1afcca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"tgQMQY4hk8SO3AMv7cMsbFDCN-9jsp2-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'TEMP' => '/tmp'
+    'TMPDIR' => '/tmp'
+    'TMP' => '/tmp'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin'
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'HTTP_COOKIE' => 'PHPSESSID=s58o7ne4b19baoqolttsro5mk0; _csrf=bca244bea473494229a178b03a29654bd8fe49cd6af96db1fbac5620e6b1afcca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22tgQMQY4hk8SO3AMv7cMsbFDCN-9jsp2-%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.com/index.php?r=site%2Fabout'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/66.0.3359.181 Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '40742'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.12.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/data/wwwroot/default/yii2/admin/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'SCRIPT_FILENAME' => '/data/wwwroot/default/yii2/admin/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1532687123.9545
+    'REQUEST_TIME' => 1532687123
+]
+2018-07-27 18:27:12 [127.0.0.1][-][s58o7ne4b19baoqolttsro5mk0][error][Error] Error: Class 'common\models\LoginForm' not found in /data/wwwroot/default/yii2/admin/controllers/SiteController.php:79
+Stack trace:
+#0 [internal function]: app\controllers\SiteController->actionLogin()
+#1 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('login', Array)
+#4 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/login', Array)
+#5 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /data/wwwroot/default/yii2/admin/web/index.php(12): yii\base\Application->run()
+#7 {main}
+2018-07-27 18:27:12 [127.0.0.1][-][s58o7ne4b19baoqolttsro5mk0][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 's58o7ne4b19baoqolttsro5mk0'
+    '_csrf' => 'bca244bea473494229a178b03a29654bd8fe49cd6af96db1fbac5620e6b1afcca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"tgQMQY4hk8SO3AMv7cMsbFDCN-9jsp2-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'TEMP' => '/tmp'
+    'TMPDIR' => '/tmp'
+    'TMP' => '/tmp'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin'
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'HTTP_COOKIE' => 'PHPSESSID=s58o7ne4b19baoqolttsro5mk0; _csrf=bca244bea473494229a178b03a29654bd8fe49cd6af96db1fbac5620e6b1afcca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22tgQMQY4hk8SO3AMv7cMsbFDCN-9jsp2-%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.com/index.php?r=site%2Fabout'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/66.0.3359.181 Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '40742'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.12.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/data/wwwroot/default/yii2/admin/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'SCRIPT_FILENAME' => '/data/wwwroot/default/yii2/admin/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1532687232.2589
+    'REQUEST_TIME' => 1532687232
+]
+2018-07-27 18:30:18 [127.0.0.1][-][s58o7ne4b19baoqolttsro5mk0][error][Error] Error: Class 'commom\models\LoginForm' not found in /data/wwwroot/default/yii2/admin/controllers/SiteController.php:79
+Stack trace:
+#0 [internal function]: app\controllers\SiteController->actionLogin()
+#1 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('login', Array)
+#4 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/login', Array)
+#5 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /data/wwwroot/default/yii2/admin/web/index.php(12): yii\base\Application->run()
+#7 {main}
+2018-07-27 18:30:18 [127.0.0.1][-][s58o7ne4b19baoqolttsro5mk0][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 's58o7ne4b19baoqolttsro5mk0'
+    '_csrf' => 'bca244bea473494229a178b03a29654bd8fe49cd6af96db1fbac5620e6b1afcca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"tgQMQY4hk8SO3AMv7cMsbFDCN-9jsp2-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'TEMP' => '/tmp'
+    'TMPDIR' => '/tmp'
+    'TMP' => '/tmp'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin'
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'HTTP_COOKIE' => 'PHPSESSID=s58o7ne4b19baoqolttsro5mk0; _csrf=bca244bea473494229a178b03a29654bd8fe49cd6af96db1fbac5620e6b1afcca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22tgQMQY4hk8SO3AMv7cMsbFDCN-9jsp2-%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/66.0.3359.181 Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '46304'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.12.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/data/wwwroot/default/yii2/admin/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'SCRIPT_FILENAME' => '/data/wwwroot/default/yii2/admin/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1532687418.4081
+    'REQUEST_TIME' => 1532687418
+]
+2018-07-27 18:30:21 [127.0.0.1][-][s58o7ne4b19baoqolttsro5mk0][error][Error] Error: Class 'commom\models\LoginForm' not found in /data/wwwroot/default/yii2/admin/controllers/SiteController.php:79
+Stack trace:
+#0 [internal function]: app\controllers\SiteController->actionLogin()
+#1 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('login', Array)
+#4 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/login', Array)
+#5 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /data/wwwroot/default/yii2/admin/web/index.php(12): yii\base\Application->run()
+#7 {main}
+2018-07-27 18:30:21 [127.0.0.1][-][s58o7ne4b19baoqolttsro5mk0][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 's58o7ne4b19baoqolttsro5mk0'
+    '_csrf' => 'bca244bea473494229a178b03a29654bd8fe49cd6af96db1fbac5620e6b1afcca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"tgQMQY4hk8SO3AMv7cMsbFDCN-9jsp2-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'TEMP' => '/tmp'
+    'TMPDIR' => '/tmp'
+    'TMP' => '/tmp'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin'
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'HTTP_COOKIE' => 'PHPSESSID=s58o7ne4b19baoqolttsro5mk0; _csrf=bca244bea473494229a178b03a29654bd8fe49cd6af96db1fbac5620e6b1afcca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22tgQMQY4hk8SO3AMv7cMsbFDCN-9jsp2-%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/66.0.3359.181 Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '46304'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.12.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/data/wwwroot/default/yii2/admin/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'SCRIPT_FILENAME' => '/data/wwwroot/default/yii2/admin/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1532687421.2164
+    'REQUEST_TIME' => 1532687421
+]
+2018-07-27 18:31:37 [127.0.0.1][-][s58o7ne4b19baoqolttsro5mk0][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "index". in /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('index', Array)
+#1 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /data/wwwroot/default/yii2/admin/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /data/wwwroot/default/yii2/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /data/wwwroot/default/yii2/admin/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2018-07-27 18:31:37 [127.0.0.1][-][s58o7ne4b19baoqolttsro5mk0][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 's58o7ne4b19baoqolttsro5mk0'
+    '_csrf' => 'bca244bea473494229a178b03a29654bd8fe49cd6af96db1fbac5620e6b1afcca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"tgQMQY4hk8SO3AMv7cMsbFDCN-9jsp2-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'TEMP' => '/tmp'
+    'TMPDIR' => '/tmp'
+    'TMP' => '/tmp'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin'
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'HTTP_COOKIE' => 'PHPSESSID=s58o7ne4b19baoqolttsro5mk0; _csrf=bca244bea473494229a178b03a29654bd8fe49cd6af96db1fbac5620e6b1afcca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22tgQMQY4hk8SO3AMv7cMsbFDCN-9jsp2-%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/66.0.3359.181 Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '46304'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.12.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/data/wwwroot/default/yii2/admin/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/data/wwwroot/default/yii2/admin/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1532687497.7635
+    'REQUEST_TIME' => 1532687497
+]
+2018-07-27 18:31:43 [127.0.0.1][-][s58o7ne4b19baoqolttsro5mk0][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "index". in /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('index', Array)
+#1 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /data/wwwroot/default/yii2/admin/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /data/wwwroot/default/yii2/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /data/wwwroot/default/yii2/admin/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2018-07-27 18:31:43 [127.0.0.1][-][s58o7ne4b19baoqolttsro5mk0][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 's58o7ne4b19baoqolttsro5mk0'
+    '_csrf' => 'bca244bea473494229a178b03a29654bd8fe49cd6af96db1fbac5620e6b1afcca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"tgQMQY4hk8SO3AMv7cMsbFDCN-9jsp2-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'TEMP' => '/tmp'
+    'TMPDIR' => '/tmp'
+    'TMP' => '/tmp'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin'
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'HTTP_COOKIE' => 'PHPSESSID=s58o7ne4b19baoqolttsro5mk0; _csrf=bca244bea473494229a178b03a29654bd8fe49cd6af96db1fbac5620e6b1afcca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22tgQMQY4hk8SO3AMv7cMsbFDCN-9jsp2-%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/66.0.3359.181 Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '46304'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.12.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/data/wwwroot/default/yii2/admin/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/data/wwwroot/default/yii2/admin/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1532687503.1704
+    'REQUEST_TIME' => 1532687503
+]
+2018-07-27 18:31:44 [127.0.0.1][-][s58o7ne4b19baoqolttsro5mk0][error][Error] Error: Class 'commom\models\LoginForm' not found in /data/wwwroot/default/yii2/admin/controllers/SiteController.php:79
+Stack trace:
+#0 [internal function]: app\controllers\SiteController->actionLogin()
+#1 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('login', Array)
+#4 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/login', Array)
+#5 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /data/wwwroot/default/yii2/admin/web/index.php(12): yii\base\Application->run()
+#7 {main}
+2018-07-27 18:31:44 [127.0.0.1][-][s58o7ne4b19baoqolttsro5mk0][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 's58o7ne4b19baoqolttsro5mk0'
+    '_csrf' => 'bca244bea473494229a178b03a29654bd8fe49cd6af96db1fbac5620e6b1afcca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"tgQMQY4hk8SO3AMv7cMsbFDCN-9jsp2-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'TEMP' => '/tmp'
+    'TMPDIR' => '/tmp'
+    'TMP' => '/tmp'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin'
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'HTTP_COOKIE' => 'PHPSESSID=s58o7ne4b19baoqolttsro5mk0; _csrf=bca244bea473494229a178b03a29654bd8fe49cd6af96db1fbac5620e6b1afcca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22tgQMQY4hk8SO3AMv7cMsbFDCN-9jsp2-%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.com/index'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/66.0.3359.181 Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '46304'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.12.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/data/wwwroot/default/yii2/admin/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/site/login'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/data/wwwroot/default/yii2/admin/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1532687504.4985
+    'REQUEST_TIME' => 1532687504
+]
+2018-07-27 18:32:15 [127.0.0.1][-][s58o7ne4b19baoqolttsro5mk0][error][Error] Error: Class 'common\models\LoginForm' not found in /data/wwwroot/default/yii2/admin/controllers/SiteController.php:79
+Stack trace:
+#0 [internal function]: app\controllers\SiteController->actionLogin()
+#1 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('login', Array)
+#4 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/login', Array)
+#5 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /data/wwwroot/default/yii2/admin/web/index.php(12): yii\base\Application->run()
+#7 {main}
+2018-07-27 18:32:15 [127.0.0.1][-][s58o7ne4b19baoqolttsro5mk0][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 's58o7ne4b19baoqolttsro5mk0'
+    '_csrf' => 'bca244bea473494229a178b03a29654bd8fe49cd6af96db1fbac5620e6b1afcca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"tgQMQY4hk8SO3AMv7cMsbFDCN-9jsp2-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'TEMP' => '/tmp'
+    'TMPDIR' => '/tmp'
+    'TMP' => '/tmp'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin'
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'HTTP_COOKIE' => 'PHPSESSID=s58o7ne4b19baoqolttsro5mk0; _csrf=bca244bea473494229a178b03a29654bd8fe49cd6af96db1fbac5620e6b1afcca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22tgQMQY4hk8SO3AMv7cMsbFDCN-9jsp2-%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/66.0.3359.181 Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '46304'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.12.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/data/wwwroot/default/yii2/admin/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/site/login'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/data/wwwroot/default/yii2/admin/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1532687535.9313
+    'REQUEST_TIME' => 1532687535
+]
+2018-07-27 18:33:04 [127.0.0.1][-][s58o7ne4b19baoqolttsro5mk0][error][Error] Error: Class 'common\models\LoginForm' not found in /data/wwwroot/default/yii2/admin/controllers/SiteController.php:79
+Stack trace:
+#0 [internal function]: app\controllers\SiteController->actionLogin()
+#1 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('login', Array)
+#4 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/login', Array)
+#5 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /data/wwwroot/default/yii2/admin/web/index.php(12): yii\base\Application->run()
+#7 {main}
+2018-07-27 18:33:04 [127.0.0.1][-][s58o7ne4b19baoqolttsro5mk0][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 's58o7ne4b19baoqolttsro5mk0'
+    '_csrf' => 'bca244bea473494229a178b03a29654bd8fe49cd6af96db1fbac5620e6b1afcca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"tgQMQY4hk8SO3AMv7cMsbFDCN-9jsp2-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'TEMP' => '/tmp'
+    'TMPDIR' => '/tmp'
+    'TMP' => '/tmp'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin'
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'HTTP_COOKIE' => 'PHPSESSID=s58o7ne4b19baoqolttsro5mk0; _csrf=bca244bea473494229a178b03a29654bd8fe49cd6af96db1fbac5620e6b1afcca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22tgQMQY4hk8SO3AMv7cMsbFDCN-9jsp2-%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/66.0.3359.181 Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '46304'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.12.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/data/wwwroot/default/yii2/admin/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/site/login'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/data/wwwroot/default/yii2/admin/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1532687584.8083
+    'REQUEST_TIME' => 1532687584
+]
+2018-07-27 18:33:05 [127.0.0.1][-][s58o7ne4b19baoqolttsro5mk0][error][Error] Error: Class 'common\models\LoginForm' not found in /data/wwwroot/default/yii2/admin/controllers/SiteController.php:79
+Stack trace:
+#0 [internal function]: app\controllers\SiteController->actionLogin()
+#1 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('login', Array)
+#4 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/login', Array)
+#5 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /data/wwwroot/default/yii2/admin/web/index.php(12): yii\base\Application->run()
+#7 {main}
+2018-07-27 18:33:05 [127.0.0.1][-][s58o7ne4b19baoqolttsro5mk0][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 's58o7ne4b19baoqolttsro5mk0'
+    '_csrf' => 'bca244bea473494229a178b03a29654bd8fe49cd6af96db1fbac5620e6b1afcca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"tgQMQY4hk8SO3AMv7cMsbFDCN-9jsp2-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'TEMP' => '/tmp'
+    'TMPDIR' => '/tmp'
+    'TMP' => '/tmp'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin'
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'HTTP_COOKIE' => 'PHPSESSID=s58o7ne4b19baoqolttsro5mk0; _csrf=bca244bea473494229a178b03a29654bd8fe49cd6af96db1fbac5620e6b1afcca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22tgQMQY4hk8SO3AMv7cMsbFDCN-9jsp2-%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/66.0.3359.181 Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '46304'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.12.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/data/wwwroot/default/yii2/admin/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/site/login'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/data/wwwroot/default/yii2/admin/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1532687585.4902
+    'REQUEST_TIME' => 1532687585
+]
+2018-07-27 18:33:55 [127.0.0.1][-][s58o7ne4b19baoqolttsro5mk0][error][Error] Error: Class 'common\models\LoginForm' not found in /data/wwwroot/default/yii2/admin/controllers/SiteController.php:79
+Stack trace:
+#0 [internal function]: app\controllers\SiteController->actionLogin()
+#1 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('login', Array)
+#4 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/login', Array)
+#5 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /data/wwwroot/default/yii2/admin/web/index.php(12): yii\base\Application->run()
+#7 {main}
+2018-07-27 18:33:55 [127.0.0.1][-][s58o7ne4b19baoqolttsro5mk0][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 's58o7ne4b19baoqolttsro5mk0'
+    '_csrf' => 'bca244bea473494229a178b03a29654bd8fe49cd6af96db1fbac5620e6b1afcca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"tgQMQY4hk8SO3AMv7cMsbFDCN-9jsp2-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'TEMP' => '/tmp'
+    'TMPDIR' => '/tmp'
+    'TMP' => '/tmp'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin'
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'HTTP_COOKIE' => 'PHPSESSID=s58o7ne4b19baoqolttsro5mk0; _csrf=bca244bea473494229a178b03a29654bd8fe49cd6af96db1fbac5620e6b1afcca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22tgQMQY4hk8SO3AMv7cMsbFDCN-9jsp2-%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/66.0.3359.181 Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '46304'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.12.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/data/wwwroot/default/yii2/admin/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/site/login'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/data/wwwroot/default/yii2/admin/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1532687635.3485
+    'REQUEST_TIME' => 1532687635
+]
+2018-07-27 18:36:18 [127.0.0.1][-][s58o7ne4b19baoqolttsro5mk0][error][Error] Error: Class 'common\models\LoginForm' not found in /data/wwwroot/default/yii2/admin/controllers/SiteController.php:79
+Stack trace:
+#0 [internal function]: app\controllers\SiteController->actionLogin()
+#1 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('login', Array)
+#4 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/login', Array)
+#5 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /data/wwwroot/default/yii2/admin/web/index.php(12): yii\base\Application->run()
+#7 {main}
+2018-07-27 18:36:18 [127.0.0.1][-][s58o7ne4b19baoqolttsro5mk0][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 's58o7ne4b19baoqolttsro5mk0'
+    '_csrf' => 'bca244bea473494229a178b03a29654bd8fe49cd6af96db1fbac5620e6b1afcca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"tgQMQY4hk8SO3AMv7cMsbFDCN-9jsp2-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'TEMP' => '/tmp'
+    'TMPDIR' => '/tmp'
+    'TMP' => '/tmp'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin'
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'HTTP_COOKIE' => 'PHPSESSID=s58o7ne4b19baoqolttsro5mk0; _csrf=bca244bea473494229a178b03a29654bd8fe49cd6af96db1fbac5620e6b1afcca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22tgQMQY4hk8SO3AMv7cMsbFDCN-9jsp2-%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.com/site/about'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/66.0.3359.181 Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '46304'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.12.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/data/wwwroot/default/yii2/admin/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/site/login'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/data/wwwroot/default/yii2/admin/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1532687778.6729
+    'REQUEST_TIME' => 1532687778
+]
+2018-07-27 18:44:50 [127.0.0.1][-][s58o7ne4b19baoqolttsro5mk0][error][Error] Error: Class 'common\models\LoginForm' not found in /data/wwwroot/default/yii2/admin/controllers/SiteController.php:80
+Stack trace:
+#0 [internal function]: app\controllers\SiteController->actionLogin()
+#1 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('login', Array)
+#4 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/login', Array)
+#5 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /data/wwwroot/default/yii2/admin/web/index.php(12): yii\base\Application->run()
+#7 {main}
+2018-07-27 18:44:50 [127.0.0.1][-][s58o7ne4b19baoqolttsro5mk0][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 's58o7ne4b19baoqolttsro5mk0'
+    '_csrf' => 'bca244bea473494229a178b03a29654bd8fe49cd6af96db1fbac5620e6b1afcca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"tgQMQY4hk8SO3AMv7cMsbFDCN-9jsp2-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'TEMP' => '/tmp'
+    'TMPDIR' => '/tmp'
+    'TMP' => '/tmp'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin'
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'HTTP_COOKIE' => 'PHPSESSID=s58o7ne4b19baoqolttsro5mk0; _csrf=bca244bea473494229a178b03a29654bd8fe49cd6af96db1fbac5620e6b1afcca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22tgQMQY4hk8SO3AMv7cMsbFDCN-9jsp2-%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.com/site/'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/66.0.3359.181 Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '51072'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.12.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/data/wwwroot/default/yii2/admin/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/site/login'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/data/wwwroot/default/yii2/admin/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1532688290.9548
+    'REQUEST_TIME' => 1532688290
+]
+2018-07-27 18:45:08 [127.0.0.1][-][s58o7ne4b19baoqolttsro5mk0][error][Error] Error: Class 'common\models\LoginForm' not found in /data/wwwroot/default/yii2/admin/controllers/SiteController.php:80
+Stack trace:
+#0 [internal function]: app\controllers\SiteController->actionLogin()
+#1 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('login', Array)
+#4 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/login', Array)
+#5 /data/wwwroot/default/yii2/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /data/wwwroot/default/yii2/admin/web/index.php(12): yii\base\Application->run()
+#7 {main}
+2018-07-27 18:45:08 [127.0.0.1][-][s58o7ne4b19baoqolttsro5mk0][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 's58o7ne4b19baoqolttsro5mk0'
+    '_csrf' => 'bca244bea473494229a178b03a29654bd8fe49cd6af96db1fbac5620e6b1afcca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"tgQMQY4hk8SO3AMv7cMsbFDCN-9jsp2-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'TEMP' => '/tmp'
+    'TMPDIR' => '/tmp'
+    'TMP' => '/tmp'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin'
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'HTTP_COOKIE' => 'PHPSESSID=s58o7ne4b19baoqolttsro5mk0; _csrf=bca244bea473494229a178b03a29654bd8fe49cd6af96db1fbac5620e6b1afcca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22tgQMQY4hk8SO3AMv7cMsbFDCN-9jsp2-%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://admin.com/site/'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/66.0.3359.181 Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'admin.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'admin.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '51072'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.12.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/data/wwwroot/default/yii2/admin/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/site/login'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/data/wwwroot/default/yii2/admin/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1532688308.2099
+    'REQUEST_TIME' => 1532688308
+]
