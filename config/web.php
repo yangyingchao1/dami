@@ -46,14 +46,14 @@ $config = [
         'db' => $db,
         'redis' => $redis,
 
-        /*
+
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
             ],
         ],
-        */
+
     ],
     'params' => $params,
 ];
