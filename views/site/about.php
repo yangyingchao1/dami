@@ -8,33 +8,40 @@ $this->title = 'About';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Live input record and playback</title>
-    <style type='text/css'>
+    <meta charset="UTF-8">
+    <title>lee-voice</title>
+    <style type="text/css">
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        html,body{
+            background: #fff;
+        }
+        .btn{
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            height: 150px;
+            background: #eee;
+        }
+        .btn input{
+            width: 100%;
+            height: 100%;
+            font: 50px/150px 'microsoft yahei';
+        }
         ul { list-style: none; }
         #recordingslist audio { display: block; margin-bottom: 10px; }
     </style>
 </head>
 <body>
-
-<h1>Recorder.js simple WAV export example</h1>
-
-<p>Make sure you are using a recent version of Google Chrome.</p>
-<p>Also before you enable microphone input either plug in headphones or turn the volume down if you want to avoid ear splitting feedback!</p>
-
-<button onclick="startRecording(this);">开始录音</button>
-<button onclick="stopRecording(this);" disabled>停止</button>
-
-<h2>Recordings</h2>
-<ul id="recordingslist"></ul>
-
-<h2>Log</h2>
-<pre id="log"></pre>
-
-<script>
+<div class="btn">
+    <ul id="recordingslist"></ul>
+    <input type="button" name="" id="messageBtn" value="按住 说话">
+</div>
+<script type="text/javascript">
     function __log(e, data) {
         log.innerHTML += "\n" + e + " " + (data || '');
     }
@@ -44,14 +51,14 @@ $this->params['breadcrumbs'][] = $this->title;
 
     function startUserMedia(stream) {
         var input = audio_context.createMediaStreamSource(stream);
-        __log('Media stream created.');
+        // __log('Media stream created.');
 
         // Uncomment if you want the audio to feedback directly
         //input.connect(audio_context.destination);
         //__log('Input connected to audio context destination.');
 
         recorder = new Recorder(input);
-        __log('Recorder initialised.');
+        // __log('Recorder initialised.');
     }
 
     function startRecording(button) {
@@ -99,19 +106,78 @@ $this->params['breadcrumbs'][] = $this->title;
             window.URL = window.URL || window.webkitURL;
 
             audio_context = new AudioContext;
-            __log('Audio context set up.');
-            __log('navigator.getUserMedia ' + (navigator.getUserMedia ? 'available.' : 'not present!'));
+            // __log('Audio context set up.');
+            // __log('navigator.getUserMedia ' + (navigator.getUserMedia ? 'available.' : 'not present!'));
         } catch (e) {
             alert('No web audio support in this browser!');
         }
 
         navigator.getUserMedia({audio: true}, startUserMedia, function(e) {
-            __log('No live audio input: ' + e);
+            // __log('No live audio input: ' + e);
         });
     };
-</script>
 
+
+    var btnElem=document.getElementById("messageBtn");//获取ID
+    var posStart = 0;//初始化起点坐标
+    var posEnd = 0;//初始化终点坐标
+    var posMove = 0;//初始化滑动坐标
+    console.log(screen);
+    function initEvent() {
+        btnElem.addEventListener("touchstart", function(event) {
+            event.preventDefault();//阻止浏览器默认行为
+            posStart = 0;
+            posStart = event.touches[0].pageY;//获取起点坐标
+            btnElem.value = '松开 结束';
+            recorder && recorder.record();
+            console.log("start");
+            console.log(posStart+'---------开始坐标');
+        });
+        btnElem.addEventListener("touchmove", function(event) {
+            event.preventDefault();//阻止浏览器默认行为
+            posMove = 0;
+            posMove = event.targetTouches[0].pageY;//获取滑动实时坐标
+            if(posStart - posMove < 500){
+                btnElem.value = '松开 结束';
+            }else{
+                btnElem.value = '松开手指，取消发送';
+            }
+            /*console.log(posStart+'---------');
+            console.log(posMove+'+++++++++');*/
+        });
+        btnElem.addEventListener("touchend", function(event) {
+            event.preventDefault();
+            posEnd = 0;
+            posEnd = event.changedTouches[0].pageY;//获取终点坐标
+            btnElem.value = '按住 说话';
+            console.log("End");
+            console.log(posEnd+'---------结束坐标');
+            if(posStart - posEnd < 500 ){
+                console.log("发送成功");
+                save();
+            }else{
+                console.log("取消发送");
+                console.log("Cancel");
+            };
+        });
+    };
+    initEvent();
+    function save(){
+        recorder && recorder.stop();
+        // create WAV download link using audio data blob
+        createDownloadLink();
+
+        recorder.clear();
+        //ajax
+        console.log('Success');
+    }
+</script>
 <script src="/js/recorder.js"></script>
+
 </body>
 </html>
+
+
+
+
 
