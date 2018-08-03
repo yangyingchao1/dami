@@ -113,7 +113,9 @@ class SiteController extends Controller
 
             return $this->refresh();
         }
-        return $this->renderPartial('contact');
+        return $this->render('contact', [
+            'model' => $model,
+        ]);
     }
 
     /**
@@ -123,6 +125,6 @@ class SiteController extends Controller
      */
     public function actionAbout()
     {
-        return $this->render('about');
+        return $this->renderPartial('about');
     }
 }
