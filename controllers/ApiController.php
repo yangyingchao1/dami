@@ -74,24 +74,24 @@ class ApiController extends Controller
     public function actionLogin()
     {
         Yii::$app->response->format = Response::FORMAT_JSON;
-       $post = Yii::$app->request->post();
-       try{
-           if(!empty($post['userName'])){
-               throw new \Exception('用户名不能为空');
-           }
-           if(!empty($post['password'])){
-               throw new \Exception('密码不能为空');
-           }
-           if(empty(Yii::$app->params['user'][$post['userName']])){
-               throw new \Exception('用户不存在');
-           }
-           if(Yii::$app->params['user'][$post['userName']] != $post['password']){
-               throw new \Exception('密码错误');
-           }
-           return [ 'code' => 1, 'msg' => '成功', 'data' =>'' ];
-       }catch (\Exception $e){
-           return [ 'code' => 0, 'msg' => $e->getMessage(), 'data' =>'' ];
-       }
+        $post = Yii::$app->request->post();
+        try {
+            if (!isset($post['userName']) || empty($post['userName'])) {
+                throw new \Exception('用户名不能为空');
+            }
+            if (!isset($post['password']) || empty($post['password'])) {
+                throw new \Exception('密码不能为空');
+            }
+            if (empty(Yii::$app->params['user'][$post['userName']])) {
+                throw new \Exception('用户不存在');
+            }
+            if (Yii::$app->params['user'][$post['userName']] != $post['password']) {
+                throw new \Exception('密码错误');
+            }
+            return ['code' => 1, 'msg' => '成功', 'data' => ''];
+        } catch (\Exception $e) {
+            return ['code' => 0, 'msg' => $e->getMessage(), 'data' => ''];
+        }
     }
 
     /**
