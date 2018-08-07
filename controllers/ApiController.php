@@ -90,7 +90,7 @@ class ApiController extends Controller
            }
            return [ 'code' => 1, 'msg' => '成功', 'data' =>'' ];
        }catch (\Exception $e){
-           return [ 'code' => 0, 'msg' => '失败', 'data' =>'' ];
+           return [ 'code' => 0, 'msg' => $e->getMessage(), 'data' =>'' ];
        }
     }
 
