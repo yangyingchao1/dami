@@ -7,7 +7,6 @@ use yii\filters\AccessControl;
 use yii\web\Controller;
 use yii\web\Response;
 use yii\filters\VerbFilter;
-use app\models\LoginForm;
 use app\models\ContactForm;
 
 class ApiController extends Controller
@@ -74,6 +73,7 @@ class ApiController extends Controller
     public function actionLogin()
     {
         Yii::$app->response->format = Response::FORMAT_JSON;
+        $this->enableCsrfValidation = false;
         $post = Yii::$app->request->post();
         try {
             if (!isset($post['userName']) || empty($post['userName'])) {
